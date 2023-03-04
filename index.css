@@ -32,5 +32,15 @@ body {
     top: 4vw;
     width: 15vw;
     border-radius: 1vw;
-    rotate: 30deg;
+    rotate: 45deg;
+    transform: scaleX(-1);
+}
+
+.amoghost {
+    position: absolute;
+    right: 4vw;
+    bottom: 10vh;
+    width: 15vw;
+    border-radius: 1vw;
+    rotate: -225deg;
 }
