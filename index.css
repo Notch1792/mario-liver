@@ -29,9 +29,10 @@ body {
 
 .amogus {
     position: absolute;
-    right: 6vw;
-    top: 7vh;
-    height: 15vw;
+    right: 5vw;
+    top: 4vh;
+    width: 15vw;
+    border-radius: 1vw;
     rotate: 45deg;
     transform: scaleX(-1);
 }
@@ -41,5 +42,6 @@ body {
     right: 4vw;
     bottom: 10vh;
     width: 15vw;
+    border-radius: 1vw;
     rotate: -225deg;
 }
