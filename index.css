@@ -9,5 +9,19 @@ body {
 }
 
 .button {
-    left: 50vw;
+    position: absolute;
+    width: 70vw;
+    height: 60vh;
+    left: 15vw;
+    background: blue;
+    color: red;
+    border-radius: 20px;
+}
+.button:hover {
+    cursor: pointer;
+    background: darkblue;
+}
+
+.button-text {
+    font-size: 10vw
 }
