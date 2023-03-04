@@ -16,6 +16,7 @@ body {
     background: blue;
     color: red;
     border-radius: 20px;
+    text-shadow: 4px 4px darkblue;
 }
 .button:hover {
     cursor: pointer;
