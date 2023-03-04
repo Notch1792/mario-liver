@@ -1,3 +1,13 @@
 body {
     background: black;
 }
+
+.header {
+    color: red;
+    text-align: center;
+    font-size: 10vh
+}
+
+.button {
+    left: 50vw;
+}
