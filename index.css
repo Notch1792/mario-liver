@@ -25,3 +25,12 @@ body {
 .button-text {
     font-size: 15vh;
 }
+
+.amogus {
+    position: absolute;
+    right: 4vw;
+    top: 4vw;
+    width: 15vw;
+    border-radius: 1vw;
+    rotate: 30deg;
+}
