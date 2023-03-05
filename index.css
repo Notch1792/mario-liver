@@ -126,3 +126,10 @@ body {
     top: 50vh;
     width: 14vw;
 }
+
+.infection {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 30vw;
+}
