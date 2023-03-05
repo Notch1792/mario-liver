@@ -93,11 +93,12 @@ body {
     width: 100vw;
     transform: scale(0);
     animation-name: shh;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 @keyframes shh {
-    0% {transform: rotateZ(0deg);}
-    100% {transform: rotateZ(360deg);}
+    0% {transform: scale(1);}
+    50% {transform: scale(1);}
+    100% {transform: scale(50);}
 }
