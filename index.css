@@ -103,3 +103,17 @@ body {
     80% {transform: scale(1);}
     100% {transform: scale(50);}
 }
+
+.broken-toe {
+    position: absolute;
+    transform: rotateZ(-20deg);
+    width: 40vh;
+    right: 10vw;
+    top: 10vh;
+}
+
+.games {
+    position: absolute;
+    top: 50vh;
+    width: 14vw;
+}
