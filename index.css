@@ -88,18 +88,17 @@ body {
 
 .shh {
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     left: 0px;
     width: 100vw;
-    height: 100vh;
     transform: scale(0);
     animation-name: shh;
     animation-duration: 3s;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 @keyframes shh {
     0% {transform: scale(1);}
-    50% {transform: scale(1);}
+    80% {transform: scale(1);}
     100% {transform: scale(50);}
 }
