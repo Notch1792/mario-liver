@@ -1,0 +1,73 @@
+body {
+    background-image: url("thinking.png");
+}
+
+.header {
+    color: red;
+    text-align: center;
+    font-size: 10vh
+}
+
+.button {
+    position: absolute;
+    width: 70vw;
+    height: 60vh;
+    left: 15vw;
+    background: blue;
+    color: red;
+    border-radius: 20px;
+    text-shadow: 4px 4px darkblue;
+}
+.button:hover {
+    cursor: pointer;
+    background: darkblue;
+}
+
+.button-text {
+    font-size: 8vw;
+}
+
+.amogus {
+    position: absolute;
+    right: 6vw;
+    top: 7vh;
+    height: 15vw;
+    rotate: 45deg;
+    transform: scaleX(-1);
+}
+
+.amoghost {
+    position: absolute;
+    right: 4vw;
+    bottom: 10vh;
+    width: 15vw;
+    rotate: -225deg;
+}
+
+.flying-amongi {
+    width: 10vw;
+    position: absolute;
+    animation-name: flying-amongi;
+    animation-iteration-count: infinite;
+}
+.flying-amongi.a {
+    top: 10vh;
+    animation-duration: 2s;
+}
+.flying-amongi.b {
+    top: 50vh;
+    animation-duration: 1.5s;
+}
+.flying-amongi.c {
+    top: 30vh;
+    animation-duration: 1s;
+}
+.flying-amongi.d {
+    top: 70vh;
+    animation-duration: 3s;
+}
+@keyframes flying-amongi {
+    0% {left: -10vw;}
+    25% {transform: rotateZ(20deg);}
+    100% {left: 100vw}
+}
