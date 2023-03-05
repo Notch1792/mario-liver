@@ -88,9 +88,10 @@ body {
 
 .shh {
     position: absolute;
-    bottom: 0px;
+    top: 0px;
     left: 0px;
     width: 100vw;
+    height: 100vh;
     transform: scale(0);
     animation-name: shh;
     animation-duration: 3s;
