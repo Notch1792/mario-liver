@@ -43,3 +43,27 @@ body {
     width: 15vw;
     rotate: -225deg;
 }
+
+.flying-amongi {
+    width: 10vw;
+    position: absolute;
+    animation-name: flying-amongi;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.flying-amongi.a {
+    top: 10vh;
+}
+.flying-amongi.b {
+    top: 50vh;
+}
+.flying-amongi.c {
+    top: 30vh;
+}
+.flying-amongi.d {
+    top: 70vh;
+}
+@keyframes flying-amongi {
+    0% {left: -10vw;}
+    100% {left: 100vw}
+}
