@@ -3,7 +3,6 @@ body {
 }
 
 .header {
-    color: red;
     text-align: center;
     font-size: 10vh;
     animation-name: header;
