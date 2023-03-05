@@ -71,3 +71,17 @@ body {
     25% {transform: rotateZ(20deg);}
     100% {left: 100vw}
 }
+
+.osu {
+    position: absolute;
+    width: 20vh;
+    top: 1vh;
+    animation-name: osu;
+    animation-duration: .4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes osu {
+    0% {transform: rotateZ(0deg)}
+    100% {transform: rotateZ(360deg)}
+}
