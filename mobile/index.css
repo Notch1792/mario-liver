@@ -5,13 +5,13 @@ body {
 .header {
     color: red;
     text-align: center;
-    font-size: 10vh
+    font-size: 10vw;
 }
 
 .button {
     position: absolute;
     width: 70vw;
-    height: 60vh;
+    height: 60vw;
     left: 15vw;
     background: blue;
     color: red;
@@ -39,9 +39,9 @@ body {
 .amoghost {
     position: absolute;
     right: 4vw;
-    bottom: 10vh;
+    top: 37vh;
     width: 15vw;
-    rotate: -225deg;
+    rotate: 125deg;
 }
 
 .flying-amongi {
