@@ -24,7 +24,7 @@ body {
 }
 
 .button-text {
-    font-size: 15vh;
+    font-size: 8vw;
 }
 
 .amogus {
@@ -68,5 +68,6 @@ body {
 }
 @keyframes flying-amongi {
     0% {left: -10vw;}
+    25% {transform: rotateZ(20deg);}
     100% {left: 100vw}
 }
