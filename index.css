@@ -39,7 +39,7 @@ body {
 .amoghost {
     position: absolute;
     right: 4vw;
-    bottom: 10vh;
+    bottom: 7vh;
     width: 15vw;
     rotate: 125deg;
 }
