@@ -84,7 +84,7 @@ body {
     position: absolute;
     width: 20vh;
     top: 1vh;
-    border=radius: 10vh;
+    border-radius: 10vh;
     animation-name: osu;
     animation-duration: .4s;
     animation-iteration-count: infinite;
